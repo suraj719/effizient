@@ -1,0 +1,32 @@
+body{
+    background-color: #daf1fe;
+    backdrop-filter: blur(5px) brightness(80%);
+    background-image: url("../public/routes.png");
+}
+input {
+    border:none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(182, 182, 182);
+}
+input:active,input:focus {
+    outline: none !important;
+    border-bottom: 2px solid rgb(9, 211, 204);
+}
+.inp-card {
+    background-color: white;
+    border-radius: 15px;
+    margin:15px 0;
+    padding: 25px 30px;
+    border: 1px solid rgb(173, 173, 173);
+}
+.inp-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+@media only screen and (max-width: 612px) {
+    .inp-card {
+        width:90% !important;
+    }
+    .inp-div {
+        width: 90% !important;
+    }
+}
