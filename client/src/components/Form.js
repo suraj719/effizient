@@ -4,7 +4,7 @@ import { TailSpin } from "react-loader-spinner";
 import "../App.css";
 export default function Form() {
   const navigate = useNavigate()
-  const url = "http://localhost:5000/api/v1/students";
+  const url = "https://effizient.onrender.com/api/v1/students";
   const [isloading, setIsloading] = useState(false);
   const [form, setForm] = useState({
     email: "",
